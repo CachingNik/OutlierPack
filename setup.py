@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="outlierpack-NG",
-    version="0.0.5",
+    version="0.0.6",
     author="Nikhil Gupta",
     author_email="ngupta_be17@thapar.edu",
     description="Outlier removal using pandas",
-	url='https://github.com/CachingNik/niklib',
+	url='https://github.com/CachingNik/OutlierPack',
 	long_description=long_description,
 	long_description_content_type="text/markdown",
 	packages=setuptools.find_packages(),
