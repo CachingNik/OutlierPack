@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/outcli
+outlib/__init__.py
+outlib/models.py
+outlierpack_NG.egg-info/PKG-INFO
+outlierpack_NG.egg-info/SOURCES.txt
+outlierpack_NG.egg-info/dependency_links.txt
+outlierpack_NG.egg-info/top_level.txt
