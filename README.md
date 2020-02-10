@@ -1,4 +1,4 @@
-# A library capable of removing outliers from a pandas dataframe
+# OUTLIER REMOVAL
 
 ```
 PROJECT 2, UCS633 - Data Analysis and Visualization
@@ -9,6 +9,8 @@ Roll number: 101703371
 Output is the number of rows removed from the input dataset. The remaining rows of the dataset are streamed to a new csv file whose name is required as an input.
 
 `The no of rows removed: 5`
+
+*Note the outlier removal is performed using **IQR** method.*
 
 ## Installation
 `pip install outlierpack_NG`
