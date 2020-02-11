@@ -13,4 +13,4 @@ def r_outliers(incsv_file, outcsv_file):
     new_dataset = dataset[((dataset >= (Q1 - 1.5 * IQR)) &(dataset <= (Q3 + 1.5 * IQR))).all(axis=1)]
             
     new_dataset.to_csv(outcsv_file, index=False)
-    print 'The no of rows removed:',len(dataset) - len(new_dataset)
+    print('The no of rows removed:',len(dataset) - len(new_dataset))

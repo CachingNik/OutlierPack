@@ -20,7 +20,7 @@ Output is the number of rows removed from the input dataset. The remaining rows 
 *Recommended - test it out in a virtual environment.* 
 
 ## To use via command line
-`outcli myData.csv newData.csv`
+`Outcli myData.csv newData.csv`
 
 First argument after outcli is the input csv filename from which the dataset is extracted. The second argument is for storing the final dataset after processing.
 

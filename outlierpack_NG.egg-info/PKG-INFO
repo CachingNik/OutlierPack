@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: outlierpack-NG
-Version: 0.0.8
+Version: 0.1.0
 Summary: Removing outliers from a pandas dataframe
 Home-page: https://github.com/CachingNik/OutlierPack
 Author: Nikhil Gupta
@@ -28,7 +28,7 @@ Description: # OUTLIER REMOVAL
         *Recommended - test it out in a virtual environment.* 
         
         ## To use via command line
-        `outcli myData.csv newData.csv`
+        `Outcli myData.csv newData.csv`
         
         First argument after outcli is the input csv filename from which the dataset is extracted. The second argument is for storing the final dataset after processing.
         
